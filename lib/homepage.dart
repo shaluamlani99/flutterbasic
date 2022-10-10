@@ -15,7 +15,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        //fontFamily: GoogleFonts.acme().fontfamily,
         title: Text("Drawer App"),
+        //backgroundColor: Color.fromARGB(255, 73, 86, 93),
+        iconTheme: IconThemeData(color: Color.fromARGB(255, 123, 98, 98)),
       ),
 
       //alignment: Alignment.center,

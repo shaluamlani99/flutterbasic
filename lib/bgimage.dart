@@ -5,9 +5,7 @@ class Bgimage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Image.asset(
       'assets/image/loginn.jpg',
-      fit: BoxFit.contain,
-      // width: 380,
-      // height: 250,
+      fit: BoxFit.cover,
     );
   }
 }
